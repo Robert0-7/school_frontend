@@ -1,0 +1,52 @@
+.top-header {
+  background-color: #002147;
+  color: white;
+  padding: 8px 0;
+  font-size: 0.9rem;
+}
+
+.top-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.contact-info {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff6b00;
+}
+
+@media (max-width: 992px) {
+  .contact-info {
+    gap: 1rem;
+  }
+  .contact-info span {
+    font-size: 0.8rem;
+  }
+}

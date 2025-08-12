@@ -1,0 +1,34 @@
+.news-ticker {
+  background-color: #002147;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 80px;
+  z-index: 999;
+}
+
+.ticker-label {
+  background-color: #ff6b00;
+  padding: 5px 15px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.ticker-content {
+  display: flex;
+  animation: ticker 30s linear infinite;
+}
+
+.ticker-item {
+  white-space: nowrap;
+  margin-right: 50px;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
