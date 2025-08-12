@@ -6,7 +6,7 @@ function TopHeader() {
       <div className="top-header-content">
         <div className="contact-info">
           <span>
-            <i className="fas fa-phone"></i> Admission Enquiry: +91 1111111111
+            <i className="fas fa-phone"></i> Admission Enquiry: +91 79809 79002
           </span>
           <span>
             <i className="fas fa-envelope"></i> info@bostonglobalschool.com
